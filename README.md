@@ -5,23 +5,33 @@ Este projeto permite baixar vídeos do YouTube, extrair o áudio, transcrever o 
 ## Requisitos
 
 - Python 3.8 ou superior
-- FFmpeg (incluído no repositório)
+- FFmpeg (não incluído no repositório - veja instruções de instalação abaixo)
 - Bibliotecas Python (listadas em requirements.txt)
 
 ## Instalação
 
 1. Clone o repositório:
-git clone https://github.com/seu-usuario/analisador-videos.git cd analisador-videos
+```bash
+git clone https://github.com/HyagoRodrigues/analisador-de-videos.git
+cd analisador-de-videos
+```
 
 2. Instale as dependências:
+```bash
 pip install -r requirements.txt
+```
 
+3. Baixe o FFmpeg:
+   - Acesse o site oficial do FFmpeg: https://ffmpeg.org/download.html
+   - Baixe a versão para Windows: "Windows builds from gyan.dev"
+   - Extraia os arquivos e copie `ffmpeg.exe`, `ffplay.exe` e `ffprobe.exe` para a pasta raiz do projeto
 
 ## Uso
 
 Execute o script principal:
+```bash
 python youtube_analyzer.py
-
+```
 
 O programa irá:
 1. Solicitar a URL de um vídeo do YouTube
@@ -39,7 +49,6 @@ O programa irá:
 ## Estrutura do Projeto
 
 - `youtube_analyzer.py`: Script principal
-- `ffmpeg.exe`, `ffplay.exe`, `ffprobe.exe`: Ferramentas para processamento de áudio/vídeo
 - `temp/`: Diretório para arquivos temporários
 
 ## Licença

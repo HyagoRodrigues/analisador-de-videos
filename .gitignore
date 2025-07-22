@@ -47,3 +47,8 @@ ENV/
 *.docx
 *.xlsx
 *.pptx
+
+# Executáveis do FFmpeg (muito grandes para o GitHub)
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
