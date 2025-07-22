@@ -1,0 +1,49 @@
+# Arquivos temporários
+temp/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Arquivos de ambiente virtual
+venv/
+ENV/
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de log
+*.log
+
+# Arquivos de mídia
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mkv
+
+# Arquivos do Office
+*.docx
+*.xlsx
+*.pptx

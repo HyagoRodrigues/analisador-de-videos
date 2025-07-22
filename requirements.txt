@@ -1,0 +1,5 @@
+yt-dlp
+whisper
+python-docx
+tqdm
+openai-whisper
