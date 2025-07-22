@@ -25,6 +25,7 @@ pip install -r requirements.txt
    - Acesse o site oficial do FFmpeg: https://ffmpeg.org/download.html
    - Baixe a versão para Windows: "Windows builds from gyan.dev"
    - Extraia os arquivos e copie `ffmpeg.exe`, `ffplay.exe` e `ffprobe.exe` para a pasta raiz do projeto
+   - **Importante**: Estes arquivos são grandes e não estão incluídos no repositório Git
 
 ## Uso
 
